@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sansPro-Regular;
+    scroll-behavior: smooth;
+}
+
+.clr{
+    clear: both;
+}
+
+p{
+    color: #555555;
+}
+
+h2{
+    font-family: sansPro-Bold;
+    font-size: 38px;
+}
+
+h2 , h3 {
+    color: #333333;
+}
+
+i{
+    color: white;
+}
+
+
+
+/* Break Section ===> counts section */
+
+
+.counts-section{
+    width: 100%;
+    text-align: center;
+    background-color: #F1F1F1;
+    padding: 1% 12%;
+}
+
+.counts-section .card{
+    width: 25%;
+    float: left;
+    padding: 5%;
+}
+
+.counts-section .card i{
+    font-size: 36px;
+    margin: 10px;
+    color: #FF305B;
+    display: inline-block;
+}
+
+.counts-section .card h3{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.counts-section p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.counts-section .between-clr{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .counts-section{
+        padding: 5% 5%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .counts-section{
+        padding: 5% 5%;
+    }
+    .counts-section .card{
+        width: 50%;
+    }
+    .counts-section .between-clr{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .counts-section{
+        padding: 2% 15%;
+    }
+
+    .counts-section .card{
+        width: 100%;
+        display: block;
+        padding: 3%;
+    }
+
+    .counts-section .between-clr{
+        display: none;
+    }
+
+}
+
+/* Footer Footer Footer Footer Footer Footer Footer Footer Footer */
+
+.footer {
+    width: 100%;
+    background-color: #282828;
+    padding: 3.5rem;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ff305b;
+}
+
+.footer i{
+    margin: 0 0.5rem;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer i:hover{
+    color: #ff305b;
+}
+
+.footer p{
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+    line-height: 1.7rem;
+}
+
+.footer p a{
+    padding: 0 5px;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+}

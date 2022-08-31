@@ -1,0 +1,149 @@
+/* SECTION (6) ==> BLOG // SECTION (6) ==> BLOG // SECTION (6) ==> BLOG */
+/* SECTION (6) ==> BLOG // SECTION (6) ==> BLOG // SECTION (6) ==> BLOG */
+/* SECTION (6) ==> BLOG // SECTION (6) ==> BLOG // SECTION (6) ==> BLOG */
+
+.blog{
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 5% 12%;
+}
+
+.blog h2{
+    margin-bottom: 10px;
+}
+
+.blog i{
+    color: #FF305B;
+}
+
+/* LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES */
+
+.blog .line{
+    background-color: #FF305B;
+    height: 0.8px;
+    margin: auto;
+    margin-bottom: 5px ;
+}
+
+.blog .short{
+    width: 100px;
+}
+
+.blog .long{
+    width: 200px;
+}
+
+
+/* CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS */
+
+.blog .cards{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.blog .card{
+    width: calc(33.333% - (2 * 0.8rem));
+    margin: 0rem 0.8rem;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+.blog .card img{
+    width: 100%;
+    display: block;
+}
+
+.blog .card .text {
+    text-align: left;
+    padding: 20px;
+}
+
+.blog .card .text h3 , .blog .card .text p{
+    margin-bottom: 15px;
+}
+
+.blog .card .text h3{
+    font-size: 24px;
+}
+
+.blog .card .text p{
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
+.blog .card .text .read-more a{
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.blog .card .text .read-more i{
+    color: #333333;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+.blog .card .text .read-more:hover a , .blog .card .text .read-more:hover i{
+    color: #FF305B;
+}
+
+
+.blog .card .video{
+    position: relative;
+}
+
+.blog .card .video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1350px) {
+    .blog{
+        padding: 5% 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .blog{
+        padding: 5% 12%;
+    }
+    .blog .card{
+        width: calc(50% - (2 * 0.8rem));
+        margin-bottom: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .blog{
+        padding: 5% 5%;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .blog{
+        padding: 5% 15%;
+    }
+    .blog .card{
+        width: calc(100% - (2 * 0.8rem));
+        display: block;
+    }
+
+}

@@ -1,0 +1,132 @@
+
+/* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
+/* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
+/* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
+
+.contact{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 5% 0;
+}
+
+.contact h2{
+    margin-bottom: 10px;
+}
+
+/* LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES */
+
+.contact .line{
+    background-color: #FF305B;
+    height: 0.8px;
+    margin: auto;
+    margin-bottom: 5px ;
+}
+
+.contact .short{
+    width: 100px;
+}
+
+.contact .long{
+    width: 200px;
+}
+
+/* FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM */
+
+.contact form{
+    width: 100%;
+    padding: 2% 25%;
+    text-align: left;
+}
+
+#name{
+    margin-right: 30px;
+}
+
+#name , #email{
+    float: left;
+    width: calc(50% - 15px);
+}
+
+.contact form input , .contact form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: 1px rgba(128, 128, 128, 0.486) solid;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.contact form input:focus , .contact form textarea:focus{
+    outline-color: #FF305B;
+    opacity: 1;
+}
+
+
+
+.contact .content button{
+    font-size: 16px;
+    color: white;
+    background-color: #FF305B;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.contact .content button:hover{
+    background-color: #EC2403;
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .contact form{
+        padding: 2% 18%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .contact form{
+        padding: 2% 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact form{
+        padding: 2% 5%;
+    }
+
+    #name{
+        margin-right: 16px;
+    }
+    
+    #name , #email{
+        float: left;
+        width: calc(50% - 8px);
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .contact form{
+        padding: 2% 5%;
+    }
+
+    #name{
+        margin-right: 0px;
+    }
+    
+    #name , #email{
+        float: none;
+        width: 100%;
+    }
+
+}

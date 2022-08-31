@@ -1,0 +1,143 @@
+nav{
+    background-color: #282828;
+    width: 100%;
+    padding:0 10rem;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    margin: 0.8rem 0rem;
+}
+
+.logo h2{
+    color: #FF305B;
+    font-size: 28px;
+}
+
+.links{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.links ul{  
+    float: right;    
+}
+
+.links li{
+    float: left;  
+    list-style: none;
+    margin: 1.2rem 0.5rem;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-family: sansPro-Light;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.links a:hover{
+    color: #FF305B;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav{
+        padding:0 10rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    nav{
+        padding:0 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 700px) {
+    nav{
+        padding: 0px 15px;
+    }
+
+    .logo{
+        width: 15%;
+    }
+    
+
+    
+    .links{
+        width: 85%;
+    }
+
+    .links a{
+        font-size: 14px;
+    }
+}
+
+
+
+/* Extra Small devices (portrait tablets and large phones, up to 600px) */
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 0px 10px;
+    }
+
+    .logo{
+        width: 10%;
+    }
+    
+    .logo h2{
+        margin-top: 0.3rem;
+        font-size: 22px;
+        color: #FF305B;
+    }
+    
+    .links{
+        width: 90%;
+    }
+
+    .links a{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    nav{
+        padding: 0px 5px;
+    }
+
+    .logo{
+        width: 10%;
+    }
+    
+    .logo h2{
+        margin-top: 0.3rem;
+        margin-left: 3px;
+        font-size: 20px;
+        color: #FF305B;
+    }
+    
+    .links{
+        width: 90%;
+    }
+
+    .links a{
+        font-size: 9px;
+    }
+
+    .links li{
+        float: left;  
+        list-style: none;
+        margin: 1.2rem 0.2rem;
+    }
+}

@@ -1,0 +1,229 @@
+/* SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT */
+/* SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT */
+/* SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT // SECTION (2) ==> ABOUT */
+
+.about{
+    width: 100%;
+    padding: 7rem 5rem;
+    margin-bottom: 1rem;
+}
+
+.about .content{
+    margin: auto;
+}
+
+.about .content .left , .about .content .right{
+    float: left;
+}
+
+/* left section -- left section -- left section */
+
+.about .content .left {
+    width: 26%;
+    background-color: white;
+    text-align: right;
+    margin-left: 15rem;
+}
+
+.about .content .left .frame{
+    display: inline-block;
+    border: solid 8px #555555;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.about .content .left .frame a{
+    text-decoration: none;
+}
+
+.about .content .left .in{
+    width: 100%;
+    visibility: hidden;
+}
+
+.about .content .left .img img , .about .content .left .img .overlay{
+    height: 102%;
+    width: 102%;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.about .content .left .img img{
+    top: 20px;
+}
+
+.about .content .left .img .overlay{
+    height: 0%;
+    bottom: calc(-2% - 20px);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.about .content .left .frame:hover .img .overlay{
+    height: 102%;
+}
+
+
+.about .content .left .img .overlay .icons{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.about .content .left .img .overlay .icons i{
+    margin: 0 0.5rem;
+    font-size: 24px;
+    color: white;
+    transition: 0.5s;
+}
+
+.about .content .left .img .overlay .icons i:hover{
+    color: #ff305b;
+}
+
+/* right section -- right section -- right section */
+
+.about .content .right{
+    width: 50%;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+.about .content p , .about .content h2 , .about .content h3{
+    font-family: sansPro-Regular;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.about .content span{
+    color: #FF305B;
+}
+.about .content h2{
+    font-size: 34px;
+    margin-bottom: 24px;
+}
+
+.about .content p{
+    font-size: 17px;
+}
+
+.about .content .break{
+    height: 3px;
+    width: 100%;
+    border-bottom: dashed 1px #555555;
+    margin: 24px 0;
+}
+
+.about .content .info-left , .about .content .info-right {
+    float: left;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.about .content h3{
+    font-size: 16px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.about .content button{
+    font-size: 16px;
+    color: white;
+    background-color: #FF305B;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.about .content button i{
+    padding-left: 10px;
+}
+
+.about .content button:hover{
+    background-color: #EC2403;
+}
+
+
+@media only screen and (max-width: 1470px) {
+
+    .about .content .info-left , .about .content .info-right {
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .about{
+        padding: 7rem 0rem;
+        margin-bottom: 1rem;
+    }
+ 
+}
+
+@media only screen and (max-width: 1210px) {
+    .about .content .right{
+        width: 50%;
+        padding-right: 0rem;
+    }
+    .about .content .info-left , .about .content .info-right {
+        float: left;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .about .content .left {
+        width: 35%;
+       margin-right: 2rem;
+       margin-left: 5rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .about .content .left {
+        width: 40%;
+        margin-top: 3rem;
+        margin-right: 0rem;
+       margin-left: 2rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .about .content .left, .about .content .right{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 2rem 20%;
+        margin: 0;
+    }
+
+    .about .content .left .img img {
+        top: 0;
+        left: 0;
+    }
+
+    .about .content .left .img .overlay{
+        bottom: -2%;
+        left: 0;
+    }
+    
+
+    .about .content .left .frame {
+        display: inline-block;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        width: 100%;
+    }     
+
+}

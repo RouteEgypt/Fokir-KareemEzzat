@@ -1,0 +1,61 @@
+/* SECTION (1) ==> HOME // SECTION (1) ==> HOME // SECTION (1) ==> HOME */
+/* SECTION (1) ==> HOME // SECTION (1) ==> HOME // SECTION (1) ==> HOME */
+/* SECTION (1) ==> HOME // SECTION (1) ==> HOME // SECTION (1) ==> HOME */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../img/slider/slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.home .content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: calc(60px + 15rem);
+    text-align: center;
+    color: white;
+}
+
+.home .content h3 , .home .content p{
+    color: white;
+}
+
+.home .content h3{
+    font-size: 24px;
+    font-family: sansPro-Regular;
+}
+
+.home .content h1{
+    font-size: 60px;
+    font-family: sansPro-Bold;
+    color: #FF305B;
+    margin: 1rem;
+}
+.home .content p{
+    font-size: 26px;
+    font-family: sansPro-Light;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    .home .content h3{
+        font-size: 20px;
+        font-family: sansPro-Regular;
+    }
+    
+    .home .content h1{
+        font-size: 50px;
+        font-family: sansPro-Bold;
+        color: #FF305B;
+        margin: 1rem;
+    }
+    .home .content p{
+        font-size: 22px;
+        font-family: sansPro-Light;
+    }
+}
